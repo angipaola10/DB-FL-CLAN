@@ -1,0 +1,5 @@
+INSERT INTO TestFisico (codigo, peso, estatura, imc, recomendaciones, correspondeA, preparador, entrenador) VALUES (95175, 65.48, 1.82, 12.02, 'recomendacion1', 50086783529, null, null);
+INSERT INTO Jugador (tipoDocumento, noDocumento, nombre, edad, correo, direccion, nombreAcudiente, telefonoAcudiente, equipo, posicion, genero) values ('CC', 50086783520, 'Bebe cito', 4, 'biorizzi0asd@g.co', '05895 Bultman Drive', 'Gianluca Iorizzi', '7888947250', 'Pre Benjamín', 'GK', 'M');
+INSERT INTO Jugador (tipoDocumento, noDocumento, nombre, edad, correo, direccion, nombreAcudiente, telefonoAcudiente, equipo, posicion, genero) values ('CC', 50086783520, 'El indefinido', 21, 'elindefinido@g.co', '09895 Bultman Drive', 'Gianluca Bacci', '7888007250', 'Juvenil', 'GK', null);
+INSERT INTO Empleado (tipoDocumento, documento, nombre, edad, direccion, correo, fechaContratacion, fechaRetiro) VALUES ('CC', 20236598321, 'El Acelerado', 17, 'cale falsa 123', 'elacelerado@gmail.com', TO_DATE('2014/01/01','YYYY/MM/DD'));
+INSERT INTO EncargadoA (cantidadInicial, cantidadFinal, implemento, encargado) VALUES (-1, 50, 'Balón', 69875621452);
